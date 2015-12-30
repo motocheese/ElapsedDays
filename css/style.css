@@ -1,0 +1,11 @@
+h1{
+    font-size: 95px;
+    font-weight: bold;
+}
+
+.vertical-align {
+  min-height: 100vh;
+  display: flex;
+ 
+  align-items: center;
+}
