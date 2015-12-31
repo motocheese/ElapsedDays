@@ -25,7 +25,7 @@
             <div class='jumbotron text-center'>
                 <h2>Hang in there. You've already made it:</h2>
                 <h1 id='elapsedDays'></h1>
-                <span class='glyphicon glyphicon-glass'></span>
+                
 
             </div>
             
@@ -47,7 +47,7 @@
       var rightNow = moment();
       var diff = rightNow.diff(start,'days')
       //subtract one day since you haven't made it all the way.
-      $("#elapsedDays").html(diff-1 + " days Ryan");
+      $("#elapsedDays").html(diff-1 + " days");
       </script>
   </body>
 </html>
